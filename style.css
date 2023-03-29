@@ -1,0 +1,1139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Archivo', sans-serif;
+  color: #5f5f5f;
+  /* background-color: #121212; */
+  /* background-image:url('\Images\backgrnd3.jpg'); */
+
+}
+
+.navbar {
+  background: rgba(2, 2, 2, 0.92);
+  padding: auto 45px 0px;
+  cursor: pointer;
+  /* cursor: zoom-in; */
+  cursor: crosshair;
+  justify-content: space-around;
+  /* height: 10vh; */
+}
+
+.bg-custom-2 {
+  background-image: linear-gradient(20deg, #296073 0%, #005B44 50%, #4E8397 100%);
+
+}
+
+.navbarimg {
+  padding-left: 60px;
+  transition: 1s;
+}
+
+.navbarimg:hover {
+  /* transition: 1s; */
+  height: 50px;
+  cursor: progress;
+
+}
+
+
+.collapse {
+  padding-right: 80px;
+}
+
+.dropdownitembg {
+  background: rgba(2, 2, 2, 0.9);
+}
+
+.btncolorclass {
+  color: #fff;
+}
+
+
+.active {
+  margin-left: 1.5rem;
+}
+
+a.aforhover {
+  position: relative;
+  text-decoration: none;
+  padding: 5px;
+  letter-spacing: 0.2px;
+
+  font-family: 'Stick No Bills',
+    sans-serif;
+  font-weight: 600;
+  /* z-index: 2; */
+}
+
+.itemcolordd {
+  color: rgb(255, 255, 255);
+  font-family: 'Stick No Bills',
+    sans-serif;
+}
+
+
+.how1,
+.how2 {
+  font-weight: 900;
+  font-family: 'Stick No Bills',
+    sans-serif;
+  font-size: 1.1011rem;
+}
+
+
+
+@media(max-width:988px) {
+  a.how1 {
+    display: inline-block;
+    width: 16%;
+  }
+}
+
+@media(max-width:988px) {
+  a.how2 {
+    display: inline-block;
+    width: 25%;
+  }
+}
+
+a.aforhover:after {
+  content: "";
+  position: absolute;
+  background-color: #a5b0ae;
+  height: 3.2px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.25s;
+  /* z-index: 1; */
+}
+
+a.aforhover:hover:after {
+  width: 100%;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+
+
+.hr1 {
+  width: 88.5%;
+  height: 2px;
+  background-color: #737373;
+  margin: auto;
+
+}
+
+.navbar-brand img {
+  height: 2.4rem;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Anek+Devanagari:wght@100;200;300;400;500;600;700;800&family=Archivo:wght@400;500;600&family=Barlow+Condensed&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Bree+Serif&family=Caveat:wght@400;500;600;700&family=Changa:wght@400;500&family=Dancing+Script:wght@400;500;600;700&family=Kanit&family=Lato:ital,wght@0,400;1,300&family=Montserrat:wght@100&family=Nabla&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@100;200;300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&family=Poor+Story&family=Rubik+Bubbles&family=Sacramento&family=Stick+No+Bills:wght@200;300;400;500&family=Ubuntu&display=swap');
+
+/* ---------------- FONT FAMILIES ----------------- */
+
+/* font-family: 'Akshar',
+sans-serif;
+font-family: 'Anek Devanagari',
+sans-serif;
+font-family: 'Archivo',
+sans-serif;
+font-family: 'Barlow',
+sans-serif;
+font-family: 'Barlow Condensed',
+sans-serif;
+font-family: 'Bebas Neue',
+cursive;
+font-family: 'Bree Serif',
+serif;
+font-family: 'Caveat',
+cursive;
+font-family: 'Changa',
+sans-serif;
+font-family: 'Dancing Script',
+cursive;
+font-family: 'Kanit',
+sans-serif;
+font-family: 'Lato',
+sans-serif;
+font-family: 'Montserrat',
+sans-serif;
+font-family: 'Nabla',
+cursive;
+font-family: 'Noto Nastaliq Urdu',
+serif;
+font-family: 'Noto Serif Devanagari',
+serif;
+font-family: 'Orbitron',
+sans-serif;
+font-family: 'Poor Story',
+cursive;
+font-family: 'Rubik Bubbles',
+cursive;
+font-family: 'Sacramento',
+cursive;
+font-family: 'Stick No Bills',
+sans-serif;
+font-family: 'Ubuntu',
+sans-serif; */
+
+
+
+.brandname {
+  /* font-family: 'orbitron'; */
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+/* -------------------Video css starts from here-------------------- */
+
+.herosection {
+  height: 100vh;
+  width: 100%;
+}
+
+.video-background {
+  position: relative;
+  width: auto;
+  min-height: 100vh;
+  margin: auto;
+  /* border-radius: 10%; */
+  background-size: auto;
+}
+
+
+.ABOUTCENTERING {
+  text-align: center;
+  justify-content: center;
+  color: rgb(224, 232, 232);
+  margin-bottom: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 350%;
+  background-image: url("https://wallpaperaccess.com/full/1288325.jpg");
+
+
+}
+
+
+.gallerysubtitle {
+  background-image: url("https://wallpaperaccess.com/full/1288325.jpg");
+
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: archivo;
+  font-size: 1.37rem;
+  /* font-optical-sizing: auto; */
+  font-weight: 300;
+  color: #b8b8b8;
+  padding-bottom: 2rem;
+
+
+}
+
+/* ---------------------------------------------------------------------- */
+
+.caption {
+  position: absolute;
+  top: 37%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+@media(max-width:768px) {
+  .caption {
+    top: 50%;
+    transition: 1s;
+  }
+}
+
+.caption h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: 15%;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+  background-color: rgb(18, 18, 18 , 0.8);
+  /* letter-spacing: 50%; */
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.37rem;
+  /* font-optical-sizing: auto; */
+  font-weight: 300;
+  color: #fcfafa;
+  padding-bottom: 2rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1.1rem;
+  padding: 0.6rem 1.3rem;
+}
+
+.col-md-8 {
+  margin: 2rem auto 8rem;
+  padding-top: 2rem;
+}
+
+.col-md-8 h1 {
+  font-size: 2.4rem;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .caption h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .15rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: .5rem;
+  }
+
+  @media(max-width: 768px) {
+    .subtitle {
+      font-size: 1rem;
+    }
+  }
+
+  .caption h3 {
+    font-size: 1.1rem;
+    /* text-shadow: .1rem .1rem .5rem black; */
+    padding-bottom: 1.2rem;
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .col-md-8 h1 {
+    font-size: 1.7rem;
+  }
+}
+
+.h1forourteam {
+  padding-top: 1.85rem;
+}
+
+/* ------------------------------------------ */
+
+.aboveabout {
+
+  color: rgb(255, 255, 255);
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.hr3 {
+  height: 0.6px;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+
+}
+
+.hr3 {
+  height: 0.6px;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+
+}
+
+.hr33 {
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3rem;
+  background-color: aliceblue;
+
+}
+
+.hr333 {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0rem;
+}
+
+.paragraphforaboutus {
+  font-weight: 300;
+  font-size: 2.6vh, 2.6vw;
+  color: #cccccc;
+  background-color: rgb(18, 18, 18, 0.7);
+  font-family: 'Archivo',
+    sans-serif;
+}
+
+.paragraphforaboutus:hover {
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+@media(max-width: 994px) {
+  .hoverforpara {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: rgb(13, 62, 33, 0.8);
+  }
+}
+
+
+.imgabout {
+  width: 75%;
+  padding-top: 1.3rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  justify-content: center;
+  transition: 0.4s;
+  margin-left: 12%;
+  /* margin-left: 6rem; */
+}
+
+.imgabout:hover {
+  width: 80%;
+  transition: 0.4s;
+  border-radius: 80px;
+}
+
+@media(max-width: 769px) {
+  .imgabout {
+    padding-right: 4%;
+  }
+}
+
+
+
+
+.gallerysection {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.bgforcar {
+  background-color: #121212;
+  text-align: center;
+  width: fit-content;
+  margin-bottom: 5rem;
+
+
+}
+
+.imageadjust {
+  width: 70%;
+  height: 50%;
+}
+
+.loader {
+  margin-left: 46%;
+  margin-right: 40%;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.loader:hover {
+  background: #03e9f4;
+  box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+
+}
+
+.loader span {
+  position: absolute;
+  display: block;
+}
+
+.loader span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 10%;
+  height: 40%;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: animate1 1s linear infinite;
+  animation-delay: 0s;
+
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+.bgexploremore {
+  background-image: url("https://images.unsplash.com/photo-1648878136531-15e7d3a88e76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGdyZWVuJTIwYmFja2dyb3VuZCUyMGJ5JTIwYWJkdWxsYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+
+}
+
+.bgaboutuscontent {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  background-image: url("https://images.pexels.com/photos/414144/pexels-photo-414144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+}
+
+
+.loader span:nth-child(3) {
+  bottom: 0;
+  left: -100%;
+  width: 10%;
+  height: 40%;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0s;
+
+}
+
+@keyframes animate3 {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+.loader span:nth-child(2) {
+  right: 0;
+  top: -100%;
+  width: 40px;
+  height: 100%;
+  background: linear-gradient(100deg, transparent, #03e9f4);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.5s;
+
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+.loader span:nth-child(4) {
+  left: 0;
+  top: 100%;
+  width: 40px;
+  height: 100%;
+  background: linear-gradient(0deg, transparent, #03e9f4);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.5s;
+
+}
+
+@keyframes animate4 {
+  0% {
+    top: 100%;
+  }
+
+  100% {
+    top: -100%;
+  }
+}
+
+.bgforfooter {
+
+  background-image: url("https://wallpaperaccess.com/full/1288325.jpg");
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.bottom-container {
+  border: #686a6b solid;
+  border-width: .1rem;
+  background-color: #121212;
+  padding-top: 2rem;
+
+}
+
+
+.bott {
+  font-family: 'Poor Story', cursive;
+  color: #92acac;
+  font-size: 1rem;
+  padding-top: 2%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+p.bott:hover {
+  color: #c9c8c8;
+}
+
+/* ------------Carousel code---------------- */
+
+
+.sectionforevents {
+  background: url("/images/bgforgallery.jpg") no-repeat center;
+  background-size: cover !important;
+
+  /* padding-left: 0; */
+
+  padding: 5% 12% 10% 10%;
+
+}
+
+.carousel-indicators {
+  left: 1rem;
+  /* right: 1rem; */
+
+}
+
+.carousel-control-prev {
+  left: 25px;
+}
+
+.h3bgforevents {
+  background-color: rgb(13, 62, 33, 0.5);
+  /* display: inline-block; */
+  /* width: 20%; */
+  text-align: center;
+  place-items: center;
+  transition: 0.3s;
+
+}
+
+.h3bgforevents:hover {
+
+  transition: 0.2s;
+  background-color: rgb(69, 82, 75);
+  border-radius: 2px;
+  border-style: groove;
+  border-radius: 75px;
+}
+
+.imgpadding {
+  border-style: ridge;
+  margin-left: -1.5rem;
+}
+
+
+
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Anek+Devanagari:wght@100;200;300;400;500;600;700;800&family=Archivo:wght@400;500;600&family=Barlow+Condensed&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bree+Serif&family=Caveat:wght@400;500;600;700&family=Changa:wght@400;500&family=Dancing+Script:wght@400;500;600;700&family=Kanit&family=Lato:ital,wght@0,400;1,300&family=Montserrat:wght@100&family=Nabla&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@100;200;300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&family=Poor+Story&family=Rubik+Bubbles&family=Sacramento&family=Stick+No+Bills:wght@200;300;400;500&family=Ubuntu&display=swap');
+
+.container {
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+
+}
+
+
+.container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .content .left-side {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.content .left-side::before {
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+
+.content .left-side .details {
+  margin: 14px;
+  text-align: center;
+
+}
+
+.content .left-side .details i {
+  font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+
+.content .left-side .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.content .left-side .details .text-one,
+.content .left-side .details .text-two {
+  font-size: 14px;
+  color: #afafb6;
+}
+
+.container .content .right-side {
+  width: 75%;
+  margin-left: 75px;
+  /* padding-top: 2rem; */
+
+}
+
+.content .right-side .topic-text {
+  font-size: 23px;
+  font-weight: 800;
+  color: #3e2093;
+}
+
+.right-side .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.querysection {
+  min-height: 6rem;
+  width: 75%;
+}
+
+.right-side .input-box input,
+.right-side .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+
+.right-side .message-box {
+  min-height: 110px;
+}
+
+.right-side .input-box textarea {
+  padding-top: 6px;
+}
+
+.right-side .button1 {
+  display: inline-block;
+  margin-top: 12px;
+  padding-bottom: 1rem;
+}
+
+.right-side .button1 input[type="button"] {
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button1 input[type="button"]:hover {
+  background: #5029bc;
+}
+
+@media (max-width: 950px) {
+  .container {
+    width: 90%;
+    padding: 30px 40px 40px 35px;
+  }
+
+  .container .content .right-side {
+    width: 75%;
+    margin-left: 55px;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    height: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .container .content {
+    flex-direction: column-reverse;
+  }
+
+  .container .content .left-side {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .container .content .left-side::before {
+    display: none;
+  }
+
+  .container .content .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* -------------------------------------------------------------------- */
+.SECT {
+  background-image: url("/images/bgforwebsite1.jpeg");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* padding-right: 4rem; */
+  padding-left: 39%;
+  background-size: cover;
+
+}
+
+
+.divforbtn {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(to right, #2fac61, #0f2027);
+  top: 40%;
+  justify-content: center;
+  margin-left: -23%;
+}
+
+@media(max-width: 991px) {
+  .divforbtn {
+    margin-right: 60%;
+    /* margin-left: 56%; */
+
+  }
+}
+
+@media(max-width: 700px) {
+  .divforbtn {
+    margin-left: -62%;
+  }
+}
+
+@media(max-width: 500px) {
+  .divforbtn {
+    margin-left: -92%;
+    margin-right: 35%;
+  }
+}
+
+.slider1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+
+.slider1 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+
+}
+
+.slider1 span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  border-radius: 10px;
+  object-fit: cover;
+  transition: 2s;
+}
+
+.slider1 span:hover img {
+  transform: translateY(-50px) scale(1.2);
+}
+
+
+
+
+/* our team styling begins from here */
+/* --------------------------------------------------- */
+
+.cssforcontactus {
+  padding: 30px;
+
+}
+
+/* ---------------------------------------------- */
+/* CSS section for social media */
+
+.socialmediasection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  transition: 0.5s;
+  padding-top: 3%;
+
+}
+
+.ulforSM {
+  position: relative;
+  display: flex;
+  padding-left: 0;
+
+}
+
+.ulforSM li {
+  list-style: none;
+}
+
+.ulforSM li:hover::before {
+  opacity: 0.1;
+  transform: translate(-50%, calc(-50%+150px));
+
+}
+
+
+.ulforSM li a {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #c9c8c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #121212;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 0.5rem;
+  font-size: 1.5em;
+  transform-style: preserve-3d;
+  perspective: 400px;
+  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+  transition: 0.25s;
+}
+
+.ulforSM li a:hover.Facebook {
+  background: #1567d3;
+}
+
+.ulforSM li a:hover.Youtube {
+  background: #e43832;
+}
+
+.ulforSM li a:hover.Instagram {
+  /* background: #b65c6c; */
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.ulforSM li a:hover.Github {
+  background: #171515;
+  border: 1px;
+}
+
+.ulforSM li a:hover.Linkedin {
+  background: #10458a;
+}
+
+.ulforSM li a .fa {
+  transition: 0.25s;
+  pointer-events: none;
+}
+
+.ulforSM li a:hover .fa {
+  color: #fff;
+  transform: scale(1.3) translateZ(50px);
+}
+
+.hoveringheadings {
+  transition: 0.5s;
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+
+.hoveringheadings:hover {
+  border-radius: 0.5rem;
+  transition: 0.1s;
+  border: 2.4px solid rgb(255, 255, 255);
+}
+
+
+/* ------------------OUR SPONSORS------------------- */
+
+.container123 {
+  padding: 3rem;
+}
+
+.oursponsors {
+  background-image: url("https://wallpaperaccess.com/full/1288325.jpg");
+}
+
+.imageforourspons {
+  display: block;
+  width: 100%;
+  transition: 1s;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.imageforourspons:hover {
+  transition: 0.4s;
+  cursor: grabbing;
+  scroll-behavior: smooth;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(196, 103, 103, 0.333);
+
+}
+
+.thumbnail:hover {
+  transform: translateY(-4px);
+
+}
+
+.img-container11 {
+  opacity: 1;
+  padding: 8% 8% 8% 8%;
+}
+
+.containerforvideo {
+  width: 350px;
+  height: 197px;
+  border: 1px solid white;
+  padding-bottom: 5%;
+  margin: auto;
+  transition: 0.1s;
+  display: inline-block;
+
+}
+
+.containerforvideo:hover {
+  border-style: groove;
+  border: 2px solid white;
+  transition: 0.1s;
+  /* border-radius: 5%; */
+}
+
+.mapofnitrr {
+  width: 350px;
+  height: 197px;
+  border: 2px solid white;
+  padding-bottom: 5%;
+  margin: auto;
+  transition: 0.1s;
+  display: inline-block;
+}
+
+.centeringmapvideo {
+  text-align: center;
+}
+
+@media(max-width: 994px) {
+  .centeringmapvideo {
+    padding-bottom: 4%;
+  }
+}
+
+
+@media(max-width:375px) {
+  .centeringmapvideo {
+    margin-right: 2%;
+  }
+}
+
+/* -------------------------------------------------- */
